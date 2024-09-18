@@ -1,0 +1,18 @@
+.home-page {
+ height: 100vh;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.hero-banner {
+    margin-top: 56px;
+}
+
+.tab-body {
+    background-color: #f0f2f5;
+}

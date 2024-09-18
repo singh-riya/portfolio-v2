@@ -1,0 +1,188 @@
+.posts-tab-container {
+    margin: 0% 16.6% 0% 16.6%;  
+    display: flex;
+    height: 140vh;
+}
+
+.posts-tab-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 16px;
+}
+
+.whats-in-your-mind {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    margin: 16px 0px 16px 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Introduction */
+
+.intro-card {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    margin: 16px 16px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; 
+}
+
+.intro-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15); 
+}
+
+.intro-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 10px 0px 16px;
+}
+
+.intro-card-content {
+    padding: 16px;
+}
+
+.intro-card-box {
+    margin: 8px;
+    padding: 16px;
+    border: 1px solid #f0f2f5;
+    border-radius: 16px;
+}
+
+.intro-card-box:hover{
+    background-color: #e2e5e9;
+}
+
+/* Skills */
+.skills-card {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 100%;
+    margin: 0px 16px 16px 0px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease; 
+}
+
+.skills-card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+.skills-card-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 10px 0px 16px;
+}
+
+.skills-card-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.skills-box {
+    padding: 16px;
+    border: 1px solid #f0f2f5;
+    border-radius: 16px;
+    text-align: center;
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-box:hover {
+    background: linear-gradient(135deg, 
+    #FDEB71 0%,  /* Soft Yellow */
+    #F8D800 10%, /* Bright Yellow */
+    #EE6D68 40%, /* Soft Pink/Red */
+    #D70060 60%, /* Deep Red/Purple */
+    #7D3B91 90%, /* Purple */
+    #1A2A6C 100% /* Deep Blue */
+  );
+}
+
+/* Posts */
+.posts-tab-container {
+    margin: 0% 16.6% 0% 16.6%;  
+    display: flex;
+  }
+  
+  .posts-tab-left {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .posts-tab-right {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+     height: 100%; /* Set the right side height to 100% */
+    overflow-y: auto; /* Enable scrolling */
+  }
+  
+  .wiym-header {
+    display: flex;
+    align-items: center;
+    padding: 16px 16px 0px 16px;
+  }
+  
+  .wiym-image {
+    margin-right: 16px;
+  }
+  
+  .whats-in-your-mind-card-title {
+    font-size: 16px;
+    color: #606770;
+    background-color: #f0f2f5;
+    padding: 10px 16px;
+    border-radius: 20px;
+    width: 100%;
+  }
+
+  .whats-in-your-mind-card-title > input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .cta-actions {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+  }
+  
+  .icon-with-text {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-weight: 600;
+    color: #606770;
+    transition: color 0.2s ease;
+    padding: 6px;
+    width: 100%;
+    justify-content: center;
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+  
+  .icon-with-text span {
+    margin-right: 8px;
+  }
+  
+  .icon-with-text:hover {
+    background-color: #e2e5e9;
+    border-radius: 8px;
+    padding: 6px;
+    width: 100%;
+  }
+
+  .wiym-profile-img {
+    border-radius: 50%;
+  }

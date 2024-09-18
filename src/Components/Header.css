@@ -1,0 +1,121 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    background-color: #fff;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 2;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    margin-right: 34px;
+  }
+  
+  .search-bar {
+    margin-left: 12px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5;
+    border-radius: 50px;
+    padding-left: 40px;
+    width: 300px;
+    height: 40px;
+  }
+  
+  .search-bar-input {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0 10px;
+    width: 100%;
+    font-size: 14px;
+    color: #606770;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 18px;
+    width: 18px;
+  }
+
+  .middle > div {
+    position: relative;
+    padding: 10px 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  }
+  
+  .middle > div:hover {
+    background-color: #e4e6eb;
+  }
+  
+  .middle img {
+    height: 24px;
+    width: 24px;
+  }
+  
+  .middle > div.active {
+    background-color: #f0f2f5; 
+    border-radius: 10px;
+  }
+  
+  .middle > div.active img {
+    filter: grayscale(0);
+  }
+  
+  
+  .right img {
+    cursor: pointer;
+    height: 28px;
+  }
+  
+  .menu-logo,
+  .messenger-logo,
+  .notifications {
+    border-radius: 50%;
+    background-color: #f0f2f5;
+    padding: 8px;
+    margin-right: 12px;
+  }
+
+  .profile {
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 12px;
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+  }
+
+  .icon-size {
+    height: 20px !important;
+    width: 20px !important;
+  }
+  
